@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+   
+}
+
+.MainSection {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.Link-card{
+    width: 250px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.647);
+
+        .fa-solid{
+            color: rgb(47, 31, 225);
+        }
+
+        p{
+            color: red;
+            font-size: larger;
+        }
+
+    }
+}
+
+.subCard{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: none;
+}
